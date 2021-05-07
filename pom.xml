@@ -8,15 +8,19 @@
 		<version>2.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.davidreiso.dev</groupId>
-	<artifactId>WebProject</artifactId>
+	<groupId>com.ecommercebase</groupId>
+	<artifactId>API_ECommerce_Base</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>WebProject</name>
-	<description>Demo project for Spring Boot</description>
+	<name>API_ECommerce_Base</name>
+	<description>Projeto base para EComerce</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -27,6 +31,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

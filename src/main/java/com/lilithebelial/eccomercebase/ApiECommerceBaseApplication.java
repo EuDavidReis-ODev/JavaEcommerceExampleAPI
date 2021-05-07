@@ -1,13 +1,13 @@
-package com.davidreiso.dev.WebProject;
+package com.lilithebelial.eccomercebase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebProjectApplication {
+public class ApiECommerceBaseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebProjectApplication.class, args);
+		SpringApplication.run(ApiECommerceBaseApplication.class, args);
 	}
 
 }

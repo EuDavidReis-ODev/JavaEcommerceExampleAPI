@@ -1,10 +1,10 @@
-package com.davidreiso.dev.WebProject;
+package com.lilithebelial.eccomercebase;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebProjectApplicationTests {
+class ApiECommerceBaseApplicationTests {
 
 	@Test
 	void contextLoads() {
